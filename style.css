@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+#topheader h1 {
+    font-weight: 600;
+    color: #fff;
+}
+
+span {
+    color: white;
+    font-weight: 800;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+}
+
+.tara {
+    height: 15px;
+    width: 100%;
+    background-color: crimson;
+    margin-top: -215px;
+    clip-path: polygon(0% 0%, 100% 20%, 100% 25%, 0% 100%);
+}
+
+
+
+.navbar-brand span {
+    color: crimson;
+
+}
+
+.nav-item a {
+    color: #fff;
+}
+
+ul li a:hover {
+    color: crimson;
+}
+
+.header-section {
+    width: 100%;
+    height: inherit;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-buttons a {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.4rem;
+    background-color: crimson;
+}
+
+.header-buttons a:hover {
+    background-color: #fff;
+    color: crimson;
+    text-decoration: none;
+}
+
+.center-div p {
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+}
+
+.bar {
+    width: 150px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: crimson;
+    margin-left: 600px;
+}
+
+/*second part*/
+
+.row {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    text-align: left;
+
+}
+
+.head {
+    color: #2b2b2b;
+}
+
+.picture {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/image-2.png");
+    background-size: cover;
+    margin-top: -200px;
+    ;
+}
+
+.bar_1 {
+    width: 150px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: crimson;
+    margin-left: 50px;
+
+}
+
+.container p {
+    font-size: 1rem;
+    padding: 10px 0 20px 0;
+}
+
+.container h3 {
+    font-weight: 400;
+    color: crimson;
+}
+
+/* Service section*/
+.bar_2 {
+    width: 250px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: crimson;
+    margin-left: 420px;
+}
+
+.headline {
+    color: #a4a4a4;
+    font-size: 3.4rem;
+    text-align: center;
+}
+
+.circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid #dadada;
+    margin: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+
+    background-color: transparent;
+
+
+}
+
+.icon img {
+    height: 60px;
+    width: 40px;
+    filter: grayscale(1);
+
+}
+
+.icon img:hover {
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+h5 {
+    color: crimson;
+    margin: -80px 0 0 80px;
+}
+
+/*slide section*/
+
+.carousel-item {
+    text-align: center;
+    margin: 50px 0 100px 0;
+    width: 100%;
+    height: 150px;
+    display: none;
+}
+
+/*card section*/
+
+.bar_3 {
+    width: 250px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: crimson;
+    margin-left: 420px;
+}
+
+.card-header {
+    width: 240px;
+    height: 120px;
+    background-color: #5a5a5a;
+}
+
+.card-header:hover {
+    background-color: #ed145b;
+    color: #fff;
+}
+
+.card-body {
+    height: 180px;
+}
+
+.price-buttons a {
+
+    border-radius: 120px;
+    margin: -10px 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #5a5a5a;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.4rem;
+    background-color: #f4f4f4;
+}
+
+.card .card-header .dolar {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.card .card-header .dolar:hover {
+    color: #b7b7b7;
+}
+
+.card .bottom a {
+
+    border-radius: 100px;
+    margin: 0px 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.4rem;
+    background-color: #ed145b;
+}
+
+.pricing {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+
+/*rect section*/
+.container .rectangle {
+    height: 120px;
+    width: 100%;
+    background-color: #ed145b;
+    margin: 30px;
+    ;
+
+}
+
+.container h2 {
+    color: white;
+    padding: 20px;
+    margin-left: 200px;
+
+}
+
+/*Galery section*/
+
+.galery img {
+    height: 200px;
+    width: 300px;
+    filter: grayscale(1);
+    padding: 10px;
+
+}
+
+.galery img:hover {
+    filter: grayscale(0);
+    opacity: 0.7;
+
+}
